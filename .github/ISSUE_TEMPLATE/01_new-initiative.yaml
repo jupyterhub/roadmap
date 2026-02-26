@@ -1,0 +1,46 @@
+# copied from https://github.com/2i2c-org/initiatives/blob/3f5d77cadbe4cc152be2647ed5718a3fba04c7aa/.github/ISSUE_TEMPLATE/01_new-initiative.yaml
+# under BSD-3-clause
+name: New Initiative
+description: A new initiative
+body:
+- type: textarea
+  id: problem-statement
+  attributes:
+    label: Problem Statement
+    description: |
+      A specific problem being faced by one or more specific personas
+      (such as student, researcher, instructor, end user, jupyterhub admin, 2i2c engineer, university IT admin, PI, etc)
+      we care about.
+
+    value: |
+      As a...
+
+- type: textarea
+  id: proposed-solution
+  attributes:
+    label: Proposed Solution
+    description: |
+      How we intend to solve the problem, written in a way that is understandable to the persona(s) facing the problem.
+
+- type: textarea
+  id: proposed-implementation
+  attributes:
+    label: Proposed Implementation
+    description: |
+      A very broad description of how we propose to technicall implement this solution.
+
+- type: textarea
+  id: fits
+  attributes:
+    label: How will this fit in the ecosystem?
+    description: |
+      How will this proposed solution fit within the upstream ecosystem as well as practices of our current communities?
+
+- type: textarea
+  id: endorsements
+  attributes:
+    label: Endorsements
+    description: |
+      List of endorsements from various community members who may find this useful
+    value: |
+      -
